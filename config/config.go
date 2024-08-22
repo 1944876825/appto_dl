@@ -14,6 +14,7 @@ type Model struct {
 	Endata   string   `yaml:"data"`
 	EnMac    string   `yaml:"mac"`
 	Features []string `yaml:"features"`
+	Domains  []string `json:"domains"`
 }
 
 func Load() {
